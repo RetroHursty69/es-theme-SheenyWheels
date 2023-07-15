@@ -1,0 +1,85 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+		<image name="background_icon" extra="true">
+         <zIndex>1</zIndex>                 
+         <path>./background.png</path>
+        <pos>0 0</pos>
+        <size>1 1</size>         
+      </image>
+                <image name="system4" extra="true">
+                   <origin>0.5 0.5</origin>
+                   <pos>0.65 0.5</pos>
+                   <maxSize>0.8 0.8</maxSize>
+                   <path>./header.png</path>
+                   <zIndex>2</zIndex>            
+                </image> 
+
+	</view>	
+	
+  	<view name="detailed, video">
+                <image name="system" extra="true">
+                   <origin>0.4 0.4</origin>
+                   <pos>0.14 0.2845</pos>
+                   <maxSize>0.5 0.5</maxSize>
+                   <path>./header.png</path>
+                   <zIndex>3</zIndex>            
+                </image>
+                <image name="background" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <path>./background.png</path>
+                   <zIndex>1</zIndex>            
+                </image>
+                <image name="system4" extra="true">
+                   <origin>0.5 0.5</origin>
+                   <pos>0.835 0.34</pos>
+                   <maxSize>0.1 0.1</maxSize>
+                   <path>./system.png</path>
+                   <zIndex>3</zIndex>            
+                </image>                
+	</view>	
+  	<view name="basic">
+                <image name="system" extra="true">
+                   <origin>0.4 0.4</origin>
+                   <pos>0.14 0.2845</pos>
+                   <maxSize>0.5 0.5</maxSize>
+                   <path>./header.png</path>
+                   <zIndex>3</zIndex>            
+                </image>
+        <image name="background" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <path>./background.png</path>
+                   <zIndex>1</zIndex>            
+                </image>
+            <image name="system5" extra="true">
+                   <origin>0.5 0.5</origin>
+                   <pos>0.83 0.7</pos>
+                   <maxSize>0.2 0.2</maxSize>
+                   <path>./system.png</path>
+                   <zIndex>3</zIndex>            
+                </image>  
+            <image name="system4" extra="true">
+                   <origin>0.5 0.5</origin>
+                   <pos>0.16 0.7</pos>
+                   <maxSize>0.2 0.2</maxSize>
+                   <path>./system.png</path>
+                   <zIndex>3</zIndex>            
+                </image>    
+                <image name="system2" extra="true">
+                   <origin>0.4 0.4</origin>
+                   <pos>0.805 0.2845</pos>
+                   <maxSize>0.5 0.5</maxSize>
+                   <path>./header.png</path>
+                   <zIndex>3</zIndex>            
+                </image>                
+	</view>		
+</theme>
